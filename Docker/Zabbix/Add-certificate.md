@@ -6,11 +6,10 @@ O certificado é uma das situações que pode levar a dúvida.
 ## Como adicionar o certificado no frontend?
 
 Primeira coisa que temos que ter é um certificado gerador por uma certificadora. Temos muitas opções como CertSign, GoDaddy, Hostinger, Hostgator, entre outros.
-Neste post fiz um artigo explicando como criar um certificado totalmente gratuito pelo Let's Encrypt. Ele é válido apenas por 90 dias, mas pode ser renovado quantas vezes quiser (como falo no artigo, este é uma opção apenas para cenário de teste ou desenvolvimento).
-https://github.com/matheusrp01/francomatheus/blob/main/Linux/Certificados/Renew-wildcard-letsencrypt.md
+[Neste post](https://github.com/matheusrp01/francomatheus/blob/main/Linux/Certificados/Renew-wildcard-letsencrypt.md) fiz um artigo explicando como criar um certificado totalmente gratuito pelo Let's Encrypt. Ele é válido apenas por 90 dias, mas pode ser renovado quantas vezes quiser (como falo no artigo, este é uma opção apenas para cenário de teste ou desenvolvimento).
 
-1. Os arquivos suportados pelo Zabbix é `.crt` e `.key`, portanto se você têm arquivo `.pem` igual ao gerado pelo Let's Encrypt é só executar o comando abaixo.
-https://www.zabbix.com/documentation/current/pt/manual/installation/containers
+
+1. Os [arquivos suportados](https://www.zabbix.com/documentation/current/pt/manual/installation/containers) pelo Zabbix é `.crt` e `.key`, portanto se você têm arquivos `.pem` iguais aos gerados pelo Let's Encrypt é só executar o comando abaixo.
 
 Para gerar o `.crt`:
 
